@@ -1,5 +1,9 @@
 before_build:
   - nuget restore
 
+test_script:
+  - xunit.console.clr4 "C:\projects\selenium-tests\canopy-tests\bin\Debug\canopy_tests.dll" /appveyor
+  - xunit.console.clr4 "C:\projects\selenium-tests\SeleniumTesting\bin\Debug\SeleniumTesting.dll" /appveyor
+
 on_finish:
   - ps: Get-ChildItem .\*.png -Recurse | % { Push-AppveyorArtifact $_.FullName -FileName $_.Name }
