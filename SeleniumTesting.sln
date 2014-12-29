@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumTesting", "SeleniumTesting\SeleniumTesting.csproj", "{F6F8AFC6-E508-4A38-BEAA-22AA3CBF50A4}"
 EndProject
@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		appveyor.yml = appveyor.yml
 	EndProjectSection
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "canopy-tests", "canopy-tests\canopy-tests.fsproj", "{982ACC01-EC82-4CEC-B23C-B26506062142}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +22,10 @@ Global
 		{F6F8AFC6-E508-4A38-BEAA-22AA3CBF50A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6F8AFC6-E508-4A38-BEAA-22AA3CBF50A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6F8AFC6-E508-4A38-BEAA-22AA3CBF50A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{982ACC01-EC82-4CEC-B23C-B26506062142}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{982ACC01-EC82-4CEC-B23C-B26506062142}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{982ACC01-EC82-4CEC-B23C-B26506062142}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{982ACC01-EC82-4CEC-B23C-B26506062142}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
