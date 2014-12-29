@@ -10,6 +10,7 @@ let ``open google`` () =
     configuration.chromeDir <- @".\"
 
     start chrome
+    browser.Manage().Window.Size <- new System.Drawing.Size(1440,900) 
    
     url "http://www.google.com"
 
