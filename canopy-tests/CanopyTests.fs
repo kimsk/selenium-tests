@@ -7,8 +7,10 @@ open System
 
 [<Fact>]
 let ``open google`` () =
-    start chrome
+    configuration.chromeDir <- @".\"
 
+    start chrome
+   
     url "http://www.google.com"
 
     quit()
