@@ -13,4 +13,6 @@ let ``open google`` () =
    
     url "http://www.google.com"
 
+    screenshot "." "google-using-chrome-canopy.png" |> ignore
+
     quit()
